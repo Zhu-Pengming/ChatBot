@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    tools:context=".MainActivity">
+
+
+    <!-- Card 1 -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_gravity="fill"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "生成小红书推文"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="24sp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "开始为你的在线社交活动生成带有标签的小红书创意"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="60dp"></TextView>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Started"
+            android:layout_marginTop="260dp"
+            android:layout_marginStart="20dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Card 2 -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_gravity="fill"
+        android:layout_marginStart="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+        <!-- Your Card 2 content here -->
+
+    </androidx.cardview.widget.CardView>
+    <!-- Card 1 -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_gravity="fill"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+        <!-- Your Card 1 content here -->
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Card 2 -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_gravity="fill"
+        android:layout_marginStart="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+        <!-- Your Card 2 content here -->
+
+    </androidx.cardview.widget.CardView>
+    <!-- Card 1 -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_gravity="fill"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+        <!-- Your Card 1 content here -->
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Card 2 -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_gravity="fill"
+        android:layout_marginStart="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+        <!-- Your Card 2 content here -->
+
+    </androidx.cardview.widget.CardView>
+</GridLayout>
